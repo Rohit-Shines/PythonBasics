@@ -1,0 +1,20 @@
+https://www.geeksforgeeks.org/how-to-import-a-class-from-another-file-in-python/
+
+
+#To import all the functions defined in a Python file:
+from file import *
+
+#To import only required functions defined in a Python file:
+from file import func1, func2, func3
+
+
+# To import class from one file to another file  ( imports all functions)
+import file ( imports all functions)
+object = file.class()
+object.function1 # calls the function another file and class
+
+
+# only specific functions from class
+from file import function1 ( imports specific functions)
+object =file.class()
+object.function1 #  calls the function another file and class
