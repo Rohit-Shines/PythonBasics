@@ -1,3 +1,4 @@
+# LTS OCD
 # LIST [] , Ordered, Changeable, Allow Duplicate values, any data type  ## Slow
 # TUPLES () , Ordered , Unchangeable , Allow Duplicate                  ## Faster
 # SET {} , Unordered , Unchangeable, No Duplicates, No index            ## Fastest   Set items are unchangeable, but you can remove items and add new items.
